@@ -52,7 +52,7 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
                 if let _ =  DataService.instance.getCart().cartDictionary[shoe] {
                         tableView.reloadRows(at: [indexPath], with: .none)
                 } else {
-                    tableView.reloadData()
+                    tableView.deleteRows(at: [indexPath], with: .none)
                 }
                 self.updateLabels()
             }

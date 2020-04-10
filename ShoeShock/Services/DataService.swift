@@ -19,7 +19,6 @@ class DataService {
         Shoe(name: "Six", price: 6.0, imageName: "six.jpg"),
         Shoe(name: "Seven", price: 7.0, imageName: "seven.jpg"),
         Shoe(name: "Eight", price: 8.0, imageName: "eight.jpg")
-        
     ]
     
     private var cart = Cart()
